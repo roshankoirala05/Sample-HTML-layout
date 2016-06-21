@@ -1,0 +1,109 @@
+/* Roshan Koirala
+ * Dr. Smith
+ * CSCI 3030
+ * 10/03/2015
+ * 
+ * Chapter05-project1.css
+ */
+ 
+
+
+h1, h2, h3, p, body, div {
+   font-family: Tahoma, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;  
+}
+
+h1  {  
+   font-size: 1.8em; 
+   margin: 0.25em 0 0.25em 0;
+}
+h2  {   
+   font-size: 1.2em;    
+   margin: 0.5em 0 0.25em 0;
+}
+p, body {
+   font-size: 0.9em;
+} 
+p {
+   margin-bottom: 1em;
+}  
+body {
+   background-color: white; 
+   padding-bottom: .5em;
+}
+
+article {
+   margin: 5em 5em 3em 25em; 
+   padding: 2em 2em 2em 2em; 
+   background-color: #F5F5F5;
+
+}
+
+
+
+figure {    
+float: left;
+position:relative;
+width: 150px;
+
+}
+
+figcaption {
+   width: 135px;
+   background-color: rgba(0,0,0,.5);
+   color:white;
+   height: 20px;
+   padding: .5em .5em .5em .5em;
+   position:absolute;
+   top:115px;
+  
+}
+.overlayed {
+position:absolute;
+top:0;
+
+}
+
+.entry {
+   overflow: auto;
+   border-top: 1pt solid #ff8800;
+   clear:both;
+}
+
+.linkbutton {
+   display:block;
+   background-color: #ff8800;
+   color: white;
+   text-decoration: none; 
+   font-size: 0.75em;   
+   padding: .5em .5em .5em .5em;
+   width: 5em;
+   float:right;
+   margin-top: 2em;
+}
+
+
+footer {
+   background-color: #474747;
+   color: #cacaca;
+   padding:2em 2em 2em 2em;
+   
+}
+footer h2 { color: #a4a1a1; }   
+
+.footer-related {
+  
+   border-top: 1pt solid #ff8800;
+   float:left;
+   width:22em;
+   padding: .5em .5em .5em .5em;
+   
+}
+.footer-section{
+
+   border-top: 1pt solid #ff8800;
+   margin-left: 26em;
+   padding: .5em .5em .5em .5em;
+}
+.footer-related img { margin: 3px; }
